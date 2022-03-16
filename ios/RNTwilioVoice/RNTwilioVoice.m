@@ -67,7 +67,7 @@ RCT_EXPORT_METHOD(initWithAccessToken:(NSString *)token) {
   [self initPushRegistry];
 }
 
-called only natively
+// called only natively
 RCT_EXPORT_METHOD(configureCallKit: (NSDictionary *)params) {
   [self configCallKit:params];
 }
